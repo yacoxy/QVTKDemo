@@ -2,7 +2,7 @@ INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 
 include(../../lib.pri)
-include(../../vtk_inc.pri)
+include(../../VTK_dependency/VTK7.0/vtk.pri)
 
 DEFINES += VTKUTILS_LIBRARY
 

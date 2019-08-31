@@ -1,4 +1,4 @@
-include(../../vtk_inc.pri)
+include(../../VTK_dependency/VTK7.0/vtk.pri)
 include(../../plugin.pri)
 
 HEADERS += plotactorplugin.h \

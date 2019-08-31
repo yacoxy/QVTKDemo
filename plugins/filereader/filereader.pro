@@ -1,5 +1,5 @@
 include(../../plugin.pri)
-include(../../vtk_inc.pri)
+include(../../VTK_dependency/VTK7.0/vtk.pri)
 
 HEADERS += filereaderplugin.h \
            widget.h \
