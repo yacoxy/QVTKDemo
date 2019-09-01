@@ -70,6 +70,8 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
 {
     init();
     loadPlugins();
+
+    setWindowState(Qt::WindowMaximized);
 }
 
 MainWindow::~MainWindow()
@@ -78,7 +80,7 @@ MainWindow::~MainWindow()
 
 QSize MainWindow::sizeHint() const
 {
-    return QSize(1500, 600);
+    return QSize(1200, 900);
 }
 
 void MainWindow::contextMenuEvent(QContextMenuEvent *event)
